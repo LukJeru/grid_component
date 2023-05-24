@@ -1,17 +1,13 @@
 .container {
   width: 90%;
   height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   border: solid 1px;
-  border-radius: 5px;
-  align-items: center;
   border-radius: 1%;
   background-color: white;
   box-shadow: 0 0 10px 0px #b8c2c6;
   font-family: 'Karla', sans-serif;
 }
+
 button {
   background-color: #bfdf32;
   color: #f0f0ee;
@@ -21,4 +17,12 @@ button {
   height: 30px;
   padding: 20px auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.subbox{
+  width:  45%;
+  height: 200px;
+  margin:  5px;
+  padding: 5px;
+  display: inline-block;
 }
