@@ -5,3 +5,13 @@ h1 {
   border: solid 1px;
   border-radius: 5px;
 }
+button {
+  background-color: #bfdf32;
+  color: #f0f0ee;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 30px;
+  padding: 20px auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
