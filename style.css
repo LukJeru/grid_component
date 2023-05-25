@@ -26,3 +26,14 @@ button {
   padding: 5px;
   display: inline-block;
 }
+
+#left{
+  background-color: #2bb3b1;
+  color: #d0fefe
+  ;
+}
+
+#right{
+  background-color: #4abebd;
+  color: #dffcfb;
+}
