@@ -6,10 +6,23 @@
   background-color: white;
   box-shadow: 0 0 10px 0px #b8c2c6;
   font-family: 'Karla', sans-serif;
+  color: var(--lightGray)
+}
+
+h1 {
+  color: var(--cyan);
+}
+
+#box-1 p{
+  color: var(--grayishBlue)
+}
+
+#subheading{
+  color: var(--brightYellow);
 }
 
 button {
-  background-color: #bfdf32;
+  background-color: var(--brightYellow);
   color: #f0f0ee;
   border-radius: 3px;
   border: none;
@@ -29,11 +42,15 @@ button {
 
 #left{
   background-color: #2bb3b1;
-  color: #d0fefe
-  ;
 }
 
 #right{
   background-color: #4abebd;
-  color: #dffcfb;
+}
+
+:root{
+  --brightYellow: hsl(71, 73%, 54%);
+  --cyan: hsl(179, 62%, 43%);
+  --lightGray: hsl(204, 43%, 93%);
+  --grayishBlue: hsl(218, 22%, 67%);
 }
