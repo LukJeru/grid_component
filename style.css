@@ -22,3 +22,12 @@ button {
   padding: 20px auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6eff6;
+}
