@@ -1,17 +1,22 @@
 .container {
-  width: 90%;
-  height: 90%;
+  width: 800px;
+  height: 400px;
   border: solid 1px;
   border-radius: 1%;
   background-color: white;
   box-shadow: 0 0 10px 0px #b8c2c6;
   font-family: 'Karla', sans-serif;
-  color: var(--lightGray)
-
+  color: var(--lightGray);
+  text-align: left;
 }
 
 h1 {
   color: var(--cyan);
+}
+
+#box-1{
+  width: 100%;
+  padding: 5px;
 }
 
 #box-1 p{
@@ -32,10 +37,6 @@ button {
   padding: 20px auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d9038870f20d9eefd6515379388ae0361a154d5c
 body {
   font-family: "Karla", sans-serif;
   height: 100vh;
@@ -44,34 +45,29 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e6eff6;
-<<<<<<< HEAD
-=======
 
-=======
+#box-2{
+  width: 100%;
 }
->>>>>>> d9038870f20d9eefd6515379388ae0361a154d5c
 .subbox{
-  width:  45%;
-  height: 200px;
-  margin:  5px;
-  padding: 5px;
+  width:  50%;
+  height: 300px;
   display: inline-block;
 }
 
 #left{
   background-color: #2bb3b1;
+
   height: 80%;
   justify-content: space-between;
-
+  float: left;
 }
 
 #right{
   background-color: #4abebd;
-  flex-direction: column;
   justify-content: space-between;
   height: 80%
-
-
+  float: right;
 }
 
 :root{
@@ -79,14 +75,14 @@ body {
   --cyan: hsl(179, 62%, 43%);
   --lightGray: hsl(204, 43%, 93%);
   --grayishBlue: hsl(218, 22%, 67%);
-<<<<<<< HEAD
->>>>>>> 6cf3fc75700afbfe69332d7783eb3da9072f69a0
-=======
->>>>>>> d9038870f20d9eefd6515379388ae0361a154d5c
 }
 body {
   background-color: #e5eff5;
 
   font-family: "Karla", sans-serif;
   font-size: 16px;
+}
+
+bold {
+  line-height: 1.4;
 }
