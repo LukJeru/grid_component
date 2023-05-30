@@ -37,6 +37,15 @@ button {
   padding: 20px auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6eff6;
+
 #box-2{
   width: 100%;
 }
@@ -48,11 +57,16 @@ button {
 
 #left{
   background-color: #2bb3b1;
+
+  height: 80%;
+  justify-content: space-between;
   float: left;
 }
 
 #right{
   background-color: #4abebd;
+  justify-content: space-between;
+  height: 80%
   float: right;
 }
 
@@ -61,6 +75,12 @@ button {
   --cyan: hsl(179, 62%, 43%);
   --lightGray: hsl(204, 43%, 93%);
   --grayishBlue: hsl(218, 22%, 67%);
+}
+body {
+  background-color: #e5eff5;
+
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
 }
 
 bold {
