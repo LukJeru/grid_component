@@ -1,8 +1,8 @@
 .container {
-  width: 800px;
+  width: 600px;
   height: 400px;
   border: solid 1px;
-  border-radius: 1%;
+  border-radius: 5px;
   background-color: white;
   box-shadow: 0 0 10px 0px #b8c2c6;
   font-family: 'Karla', sans-serif;
@@ -14,13 +14,13 @@ h1 {
   color: var(--cyan);
 }
 
-#box-1{
+.box-1{
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
-#box-1 p{
-  color: var(--grayishBlue)
+.box-1 p{
+  color: var(--grayishBlue);
 }
 
 #subheading{
@@ -46,25 +46,30 @@ body {
   align-items: center;
   background-color: #e6eff6;
 }
-#box-2{
+.box-2{
   width: 100%;
 }
 .subbox{
-  width:  50%;
-  height: 300px;
+  width:  260px;
+  height: 200px;
   display: inline-block;
+  padding: 20px;
 }
 
 #left{
   background-color: #2bb3b1;
   justify-content: space-between;
   float: left;
+  border: none;
+  border-bottom-left-radius: 5px;
 }
 
 #right{
   background-color: #4abebd;
   justify-content: space-between;
   float: right;
+  border: none;
+  border-bottom-right-radius: 5px;
 }
 
 :root{
@@ -77,8 +82,4 @@ body {
   background-color: #e5eff5;
   font-family: "Karla", sans-serif;
   font-size: 16px;
-}
-
-bold {
-  line-height: 1.4;
 }
