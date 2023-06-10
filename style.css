@@ -34,10 +34,12 @@ button {
   color: #f0f0ee;
   border-radius: 3px;
   border: none;
-  width: 200px;
-  height: 30px;
+  width: 230px;
+  height: 45px;
   padding: 20px auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: bold;
 }
 button:hover{
   background-color: hsl(71, 73%, 47%);
